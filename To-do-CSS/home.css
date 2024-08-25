@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+body {
+    background-color: #2c2c2c;
+}
+
+.container {
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 19px;
+    font-family: "Lexend", sans-serif;
+    font-style: italic;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    color: white;
+    width: 600px;
+    height: 102.76px;
+    left: 450px;
+    top: 40px;
+    font-size: 20px;
+}
+
+.line-1 {
+    width: 55px; 
+    height: 2px; 
+    background-color: white; 
+    margin: 0 10px;
+}
+
+.line-2 {
+    width: 40px;
+    height: 2px;
+    background-color: white;
+    margin: 0 10px;
+}
+
+
+.bottom-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 480px;
+    left: 500px;
+    top: 120px; 
+}
+
+.bottom-line .line-1 {
+    width: 180px;
+    height: 2px; 
+    background-color: white;
+}
+
+.bottom-line .line-2 {
+    width: 160px; 
+    height: 2px; 
+    background-color: white; 
+}
+
+.bottom-line i {
+    font-size: 22px;
+    color: white;
+    margin: 0 10px; /* Xətt ilə ikon arasındakı boşluq */
+}
+
+
+.textadd {
+    position: relative;
+    width: 800px;
+    height: 49.44px;
+    left: 400px;
+    top: 234.56px;
+    margin-left: 30px;
+}
+
+.text {
+    border-radius: 20px;
+    width: 80%;
+    padding: 10px;
+    background-color: #cac9c9;
+    border: none;
+    outline: none;
+}
+
+.btn {
+    position: absolute;
+    border-radius: 20px;
+    width: 15%;
+    padding: 10px;
+    left: 580px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #575555;
+    color: #d8d6d6;
+    border: none;
+}
+
+.line-3{
+    width: 700px; 
+    height: 1px; 
+    background-color: #a09b9b; 
+    margin: 25px 0;
+}
+
+.task-list {
+    position: relative;
+    left: -35px;
+}
+
+ul li {   
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    position: relative;
+    list-style-type: none;
+    width: 600px;
+    background: #202020;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    color: #d8d6d6;
+}
+
+
+.bx-trash {
+    position: absolute;
+    background-color: #d8d6d6;
+    top: 1px;
+    right: 1px;
+    padding: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #2c2c2c;
+}
+
+
+.fa-circle-check, .fa-circle, .bx-trash {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.fa-circle-check {
+    position: absolute;
+    background-color: #d8d6d6;
+    top: 1px;
+    right: 35px;
+    padding: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #2c2c2c;
+}
+
+.fa-circle {
+    position: absolute;
+    background-color: #d8d6d6;
+    top: 1px;
+    right: 35px;
+    padding: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #2c2c2c;
+}
+

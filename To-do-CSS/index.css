@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    padding: 50px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}
+
+.title h1 {
+    font-family: "Smooch Sans", sans-serif;
+    color: #1C1C1C;
+    font-weight: 700px;
+    font-size: 120px;
+    margin: 0;
+}
+
+.title p {
+    position: relative;
+    color: #1C1C1C;
+    font-size: 13px;
+    margin: 30 30;
+    width: 250px;
+    height: 10px;
+    left: 80px;
+    margin-top: -25px;
+}
+
+@media screen and (max-width: 450px) {
+    .title h1  {
+      font-size: 60px;
+    }
+    .title p  {
+        font-size: 7px;
+        margin-top: -15px;
+        left: 40px;
+  
+      }
+}
+
+.input-button {
+    width: 100%;
+}
+
+.input-group {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: -30px;
+    margin-right: 10px;
+}
+
+.left-icon {
+    position: relative;
+    margin-right: 20px;
+    color: #1e1d1d;
+    width: 50px;
+    height: 30px;
+    top: 6px;
+    left: 39px;
+    transform: translateX(90%);
+}
+
+
+.toggle-pass-icon {
+    color: #1e1d1d;
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    right: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+    transform: translateX(50%);
+}
+
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: rgba(242, 242, 242, 1);
+    border-radius: 10px;
+    color: #000000;
+    font-size: 12px;
+    padding: 10px 10px 10px 40px;
+}
+
+.button-group {
+    text-align: center;
+}
+
+.button-group button {
+    width: 370px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1C1C1C;
+    color: #FFFFFF;
+    font-size: 12px;
+    cursor: pointer;
+    margin-bottom: 10px;
+
+}
+
+@media screen and (max-width: 450px) {
+    .input-button {
+        width: 50%;
+        left: 10px;
+        margin-left: -60px;
+    }
+
+    .button-group button {
+        margin-left: -30px;
+        width: 185px;
+
+    }
+}
+
+.button2 {
+    text-align: center;
+}
+
+.button2 p {
+    font-family: "Poppins", sans-serif;
+    height: 15px;
+    width: 500px;
+    font-weight: 200;
+    font-size: 12px;
+    font-style: normal;
+    color: #1e1d1d;
+    margin-top: 1px;
+}
+
+.button2 button {
+    width: 370px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.google-login {
+    background-color: #ffffff;
+    color: #0e0e0e;
+    border: 1px solid #282626;
+}
+
+.google-login img {
+    width: 20px;
+    height: 20px;
+    transform: translateY(5px);
+}
+
+.facebook-login {
+    background-color: #ffffff;
+    color: #0e0e0e;
+    border: 1px solid #24345e;
+}
+
+.facebook-login img {
+    width: 20px;
+    height: 20px;
+    transform: translateY(5px);
+}
+
+
+.image-container {
+    margin-left: 50px;
+}
+
+.image-container img {
+    width: 550px;
+    border-radius: 25px;
+}
+
+@media screen and (max-width: 1100px) {
+    .image-container {
+        display: none;
+    }
+}
